@@ -1,5 +1,5 @@
 <?php 
-$nom = "Alexis";
+$nom = $_GET['prenom'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,5 +15,11 @@ $nom = "Alexis";
     <h1>
         <?php echo "Bonjour $nom"; ?>
     </h1>
+    <h2>Connectez-vous</h2>
+    <form action="index.php" method="GET">
+        <input type="text" name="prenom" id="">
+        <input type="password" name="pass" id="">
+        <input type="submit" value="Envoyer">
+    </form>
 </body>
 </html>
