@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-content: center;
+    align-items: center;
+    background-color: violet;
+    padding: 0 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
