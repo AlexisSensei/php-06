@@ -12,5 +12,31 @@
     <h1>
         Notes
     </h1>
+<?php 
+
+    $matieres = [
+       "HTML / CSS / Responsive",
+       "Algo", 
+       "Javascript",
+       "PHP / MySQL",
+       "Réseaux",     
+    ];
+
+    $unites = [
+        "Culture digitale 1",
+        "MÉTIER ANIMATION 3D",
+        "MÉTIER COMMUNICATION DIGITALE & E-BUSINESS 1",
+        "MÉTIER CRÉATION & DESIGN 1",
+        "MÉTIER DÉVELOPPEMENT WEB 1",
+        "MÉTIER JEUX VIDÉO 1"
+    ];
+?>
+    <h1><?php echo $unites[4]; ?></h1>
+    <ul>
+        <?php foreach($matieres as $cours) {
+            echo "<li>$cours</li>";
+        } ?>
+    </ul>
+
 </body>
 </html>
